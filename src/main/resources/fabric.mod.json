@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "multicore",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MultiCore",
+  "description": "Makes Hardcore mode better to play for multiplayer worlds.",
   "authors": [
-    "Me!"
+    "Lumyni"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/felixLumyni/MultiCore"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/multicore/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.multicore.multicore"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "multicore.mixins.json"
   ],
 
   "depends": {
