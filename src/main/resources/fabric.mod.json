@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "multicore",
-  "version": "${version}",
+  "version": "0.1a",
 
   "name": "MultiCore",
-  "description": "Makes Hardcore mode better to play for multiplayer worlds.",
+  "description": "Makes Hardcore mode nicer to play on multiplayer.",
   "authors": [
     "Lumyni"
   ],
